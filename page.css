@@ -1,0 +1,108 @@
+@import url("https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap");
+
+.bg-container-homepage {
+    min-height: 100vh;
+    background-image: url('https://assets.ccbp.in/frontend/static-website/yoga-bg.png');
+    background-size: cover;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    overflow-x: hidden;
+}
+
+.homepage-heading {
+    text-align: center;
+    font-size: 30px;
+    font-weight: 700;
+    color: #132d84;
+}
+
+.homepage-image {
+    max-width: 300px;
+    align-items: center;
+    align-self: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.homepage-bottom-heading {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 20px;
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.homepage-button,
+.back-button {
+    border-radius: 10px;
+    color: #ffffff;
+    background-color: #132d84;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    font-family: "Roboto";
+    font-size: 16px;
+
+}
+
+.bg-container-mainpage {
+    min-height: 100vh;
+    background-color: #ffedcb;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 30px;
+}
+
+.mainpage-image {
+    align-self: center;
+    max-width: 200px;
+}
+
+.mainpage-heading {
+    color: #132d84;
+    margin-top: 20px;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.item {
+    background-color: #ffe2ab;
+    padding: 25px;
+    display: flex;
+    flex-direction: row;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    max-width: 600px;
+    align-self: center;
+}
+
+.item-image {
+    max-width: 100px;
+    justify-content: flex-start;
+    align-self: center;
+}
+
+.item-text-block {
+    justify-content: flex-end;
+    display: flex;
+    flex-direction: column;
+    margin-left: 20px;
+}
+
+.item-heading {
+    font-size: 20px;
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 600;
+}
+
+.item-paragraph {
+    font-size: 16px;
+    color: #323f4b;
+    font-family: "Roboto";
+    font-weight: 500;
+}
